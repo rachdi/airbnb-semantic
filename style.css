@@ -1,13 +1,19 @@
 i.icon, i.icons {
 	font-size:2em;
 }
+
 select {
 	color:black;
 }
+
+
+.bck {
+	background-size: cover;
+}
+
 .background {
 	background-image: url(https://unsplash.it/200/300#1009=0);
 	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-

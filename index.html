@@ -9,49 +9,59 @@
 </head>
 <body>
 <!--Header-->
-	<header>
-		<div class="ui huge fixed menu">
-  			<div class="header item">Airbnb</div>
-  			<div class="ui category search item">
-    			<div class="ui transparent icon input">
-      				<input class="prompt" placeholder="Où ?" type="text">
-      				<i class="search link icon"></i>
-    			</div>
-    		</div>
-   			<button class="ui grey basic button">Devenez hôte</button>
-    		<div class="right menu">
-	  			<a class="item">Aide</a>
-	  			<a class="item">Inscription</a>
-	 			<a class="item">Connexion</a>
-	 		</div>
+	<div class="ui huge fixed menu">
+			<div class="header item">Airbnb</div>
+			<div class="ui category search item">
+			<div class="ui transparent icon input">
+				<i class="search icon"></i>
+  				<input placeholder="Où ?" type="text">
+			</div>
 		</div>
-		<div class="ui segment"></div>
-		<div class="ui center aligned segment ">
-			
-	  			<div class="ui huge header">VIVEZ LA-BAS</div>
-	  			<p><b>Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez là-bas, comme chez vous.</b></p>
-	  			<div class="ui small compact menu ">
+			<button class="ui grey basic button">Devenez hôte</button>
+		<div class="right menu">
+  			<a class="item">Aide</a>
+  			<a class="item">Inscription</a>
+ 			<a class="item">Connexion</a>
+ 		</div>
+	</div>
+	<div class="ui grid bck" style="background-image: url(https://unsplash.it/458/354?image=1051);
+" >
+		<div class="one colum row">
+			<div class="ui column grid"></div>
+		</div>
+		<div class="one column row">
+			<div class="ui column centered grid">
+				<h2>VIVEZ LA-BAS</h2>
+  				<p><b>Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez là-bas, comme chez vous.</b></p>
+	  			<div class="ui small compact menu">
 	  				<div class="ui category search item">
 		    			<div class="ui transparent icon input">
 		      				<input class="prompt" placeholder="Où ?" type="text">
 		    			</div>
 	    			</div>
-					<div class="vertically fitted item">Départs</div>
-					<div class="vertically fitted item">Arrivées</div>
-					<a class="browse item">1 voyaveur<i class="dropdown icon"></i></a>
-					<div class="item">
-	    				<div class="ui pink button">Rechercher</div>
-	  				</div>
+	    			<div class="ui category search item">
+	    				<div class="ui transparent icon input">
+		      				<input class="prompt" placeholder="Arrivée" type="text">
+							<input class="prompt" placeholder="Départ" type="text">
+						</div>
+	    			</div>
+					<select class="ui selection dropdown">
+	    				<option value="all">1 voyageur</option>
+	    				<option selected="" value="articles">1 voyageur</option>
+	   					<option value="products">2 voyageurs</option>
+	  				</select>
+					<div type="submit" class="ui pink button">Rechercher</div>
 				</div>
-		
-  		</div>
-	</header>
+			</div>
+			</div>
+		</div>
+	</div>
 
 <!-- central -->
     <div class="tete">
 		<h2 class="ui center aligned right">Ouvrez la porte à un voyageur et à une nouvelle vie </h2>
 		<span>Gagnez de l'argent en accueillant des voyageurs. </span>
-		<button class="ui primary button">Estimer mes revenus</button>
+		<button class="ui primary button">Estimer mes revenus </button>
 	</div>
 		<div class="ui column grid">
 			<div class="row centered">
