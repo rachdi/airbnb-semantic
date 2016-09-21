@@ -13978,7 +13978,7 @@ ol.ui.list ol li,
 .ui.link.list .item,
 .ui.link.list a.item,
 .ui.link.list .item a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: #FFFFFF;
   -webkit-transition: 0.1s color ease;
   transition: 0.1s color ease;
 }
@@ -30015,7 +30015,7 @@ select.ui.dropdown {
 }
 
 .ui.dropdown.error > .menu > .item {
-  color: #9F3A38;
+  color: #fff;
 }
 
 .ui.multiple.selection.error.dropdown > .label {
