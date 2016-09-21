@@ -5,16 +5,7 @@ i.icon, i.icons {
 select {
 	color:black;
 }
-<<<<<<< HEAD
 
 .bck {
 	background-size: cover;
 }
-=======
-.background {
-	background-image: url(https://unsplash.it/200/300#1009=0);
-	height: 600px;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
->>>>>>> df9c1f7b276559111ecf55b71a48d095d762adb8
