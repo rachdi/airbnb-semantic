@@ -4,12 +4,10 @@ i.icon, i.icons {
 select {
 	color:black;
 }
-.background{
-	background-image: url(https://unsplash.it/458/354?image=1083);
-	background-size:cover;
-	background-repeat:no-repeat;
-	height:600px;
+.background {
+	background-image: url(https://unsplash.it/200/300#1009=0);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-footer {
-	background-color:black;
-}
+
